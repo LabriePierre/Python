@@ -1,7 +1,8 @@
 import os
 import asyncio
 from fastapi import FastAPI
-from pyhilo import HiloClient  # <-- Remplacé 'hilo' par 'pyhilo'
+from pyhilo import HiloClient  # L'importation interne utilise bien pyhilo
+
 
 app = FastAPI(title="Passerelle Hilo pour ESP01")
 
